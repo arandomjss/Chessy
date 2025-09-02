@@ -42,7 +42,7 @@ def train(data_file, vocab_file, epochs=5, batch_size=128):
         print(f"Epoch {epoch+1}, loss {loss.item():.4f}")
 
     torch.save(model.state_dict(), "checkpoint.pth")
-    print("Saved model.pt")
+    print("Saved checkpoint.pth")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

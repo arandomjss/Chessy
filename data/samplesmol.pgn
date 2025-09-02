@@ -1,0 +1,28 @@
+
+---
+
+### 3. `data/sample.pgn`
+(Just a small PGN to test)
+```pgn
+[Event "Sample Game"]
+[Site "?"]
+[Date "2025.01.01"]
+[Round "?"]
+[White "SampleWhite"]
+[Black "SampleBlack"]
+[Result "1-0"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 
+8. c3 O-O 9. h3 Nb8 10. d4 Nbd7 11. c4 c6 12. cxb5 axb5 13. Nc3 Bb7 
+14. Bg5 b4 15. Nb1 h6 16. Bh4 c5 17. dxe5 Nxe4 18. Bxe7 Qxe7 19. exd6 Qf6 
+20. Nbd2 Nxd6 21. Nc4 Nxc4 22. Bxc4 Nb6 23. Ne5 Rae8 24. Bxf7+ Rxf7 
+25. Nxf7 Rxe1+ 26. Qxe1 Kxf7 27. Qe3 Qg5 28. Qxg5 hxg5 29. a4 bxa3 
+30. bxa3 c4 31. Rb1 c3 32. Rc1 Na4 33. Kf1 Ba6+ 34. Ke1 Bd3 35. f3 Ke6 
+36. Kf2 Kd5 37. Ke3 Kc4 38. g3 Nc5 39. f4 gxf4+ 40. gxf4 c2 41. h4 Kc3 
+42. h5 Nb3 43. Rg1 c1=Q+ 44. Rxc1+ Nxc1 45. a4 Nb3 46. f5 Bxf5 47. Kf4 Bh7 
+48. Kg5 Kd4 49. h6 gxh6+ 50. Kxh6 Bc2 51. Kg5 Ke5 52. Kg4 Nd4 53. Kg3 Bxa4 
+54. Kf2 Ke4 55. Ke1 Ke3 56. Kf1 Nf3 57. Kg2 Bd7 58. Kg3 Ne1 59. Kh4 Kf4 
+60. Kh5 Kf5 61. Kh6 Kf6 62. Kh7 Be6 63. Kh6 Bg4 64. Kh7 Kf7 65. Kh6 Nf3 
+66. Kh7 Ng5+ 67. Kh6 Kf6 68. h5 Nf7+ 69. Kh7 Bxh5 70. Kg8 Kg6 71. Kf8 Kf6 
+72. Ke8 Ne5 73. Kd8 Ke6 74. Kc7 Kd5 75. Kb6 Be8 76. Kc7 Kc5 77. Kd8 Kd6 
+78. Kxe8 Ke6 79. Kd8 Kd6 80. Ke8 Ke6 1-0
