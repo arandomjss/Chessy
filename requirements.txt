@@ -4,3 +4,6 @@ torchaudio
 python-chess
 tqdm
 numpy
+scikit-learn
+pillow
+matplotlib

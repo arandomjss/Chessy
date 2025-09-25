@@ -2,6 +2,7 @@ import argparse
 import chess.pgn
 import numpy as np
 import json
+from train import extract_features
 
 def encode_board(board):
     # Basic encoding: piece type * color
@@ -29,8 +30,10 @@ def preprocess(pgn_file, vocab_file, out_file, max_positions=50000):
             if len(X) >= max_positions:
                 break
     X, y = np.array(X), np.array(y)
-    np.savez(out_file, X=X, y=y)
-    print(f"Saved {len(X)} positions to {out_file}")
+    print("Extracting additional features...")
+    X_features = np.array([extract_features(board) for board in X])
+    np.savez(out_file, X=X_features, y=y)
+    print(f"Saved {len(X_features)} positions with enhanced features to {out_file}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
