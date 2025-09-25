@@ -1,0 +1,9 @@
+# Create .gitignore to prevent these files from being tracked again
+echo "*.npz
+*.pkl
+chess_forest_model.pkl
+data/train_data.npz
+__pycache__/
+*.py[cod]
+*$py.class" > .gitignore
+
