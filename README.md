@@ -21,4 +21,4 @@ This project trains a RandomForest ensemble to predict chess moves based on hist
 6. python chessbot/play.py --vocab data/vocab.json --model chess_forest_model.pkl --interactive
 
 or just run the gui which is better since 6 will give out annoying parallel processing outputs warnings etc
-7. python chess_gui.py
+7. python -m chessbot.chess_gui

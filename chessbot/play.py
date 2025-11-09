@@ -3,7 +3,12 @@ import chess
 import json
 import numpy as np
 import pickle
-from train import extract_features
+try:
+    # When imported as a package
+    from .train import extract_features
+except Exception:
+    # When executed as a script (no package context), fall back to top-level import
+    from train import extract_features
 import time
 import warnings
 import logging
